@@ -47,7 +47,7 @@ const Feed: React.FC<Props> = () => {
         }}
       >
         <ProfileCard />
-        <ServiceCard />
+{/*         <ServiceCard />   // 20240103，不显示页面上的Service */}
         <ContactCard />
         <div className="footer">
           <Footer />
